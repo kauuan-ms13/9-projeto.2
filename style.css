@@ -1,0 +1,138 @@
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 30px 0 0 50px;
+}
+
+.linkh {
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 23px;
+
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #6FBF44;
+    border-radius: 8px;
+    border-color: none;
+    cursor: pointer;
+}
+
+img {
+    width: 534;
+    height: 467;
+    opacity: 1;
+    margin: 130px 0 0 95px;
+    display: inline-block;
+}
+
+main {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+.finalLink {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #6FBF44;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    header {
+        margin: 25px 0 0 60%;
+        width: auto;
+        height: auto;
+    }
+
+    .linkh {
+        display: none;
+    }
+
+    h1 {
+        margin: 90px 0 0 0;
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    p {
+        width: auto;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 30px 0 ;
+        padding: 0 30px;
+    }
+
+    .finalLink {
+        margin: 0;
+        letter-spacing: 1;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        left: 0;
+        right: 0;
+        position: absolute;
+        display: block;
+        margin: 0;
+        max-width: 90%;
+        width: auto;
+        bottom: 5%;
+        margin: 0 auto;
+    }
+
+    main {
+        display: block;
+        margin: 0;
+    }
+}
